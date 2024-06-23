@@ -1,0 +1,51 @@
+
+.work-experience {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(17, 17, 78);
+    overflow-x: auto;
+}
+
+.work-experience h2 {
+    text-align: center;
+    margin-bottom: 20px ;
+    background-color: rgb(17, 17, 78);
+}
+
+.jobs-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 40px 54px;
+   
+}
+
+.job {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    background-color: rgb(17, 17, 78);
+    padding: 20px;
+    
+}
+
+.job h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #0073e6;
+}
+
+.company, .duration {
+    margin: 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.responsibilities {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.responsibilities li {
+    margin-bottom: 10px;
+}
